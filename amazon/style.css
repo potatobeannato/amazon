@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+.login {
+  background: white;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-container {
+  width: 500px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  box-shadow: 0px 1px 2px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid lightgrey;
+  padding: 15px;
+}
+.password {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.password a {
+  text-decoration: none;
+  color: rgb(14, 153, 245);
+}
+.login-container form input {
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  background-color: white;
+  outline: none;
+  width: 98%;
+  border: 1px solid gray;
+}
+
+.continue {
+  width: 100%;
+  padding-top: 10px;
+  background-color: rgb(255, 187, 0);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  cursor: pointer;
+}
+.needhelp {
+  padding-top: 20px;
+}
+.needhelp a {
+  text-decoration: none;
+  color: rgb(14, 153, 245);
+}
+.needhelp span {
+  content: "\1F892";
+  font-size: 25px;
+  margin-right: 2px;
+}
+.linebreak {
+  display: flex;
+  justify-content: center;
+}
+h6 {
+  width: 45vw;
+  text-align: center;
+  border-bottom: 1px solid lightgrey;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+h6 span {
+  background: #fff;
+  padding: 010px;
+  color: rgb(175, 174, 174);
+}
+
+.createacc {
+  display: flex;
+  justify-content: center;
+}
+.createacc button {
+  width: 45vw;
+  height: 4vh;
+  cursor: pointer;
+}
+
+.conditions {
+  display: flex;
+  justify-content: center;
+}
+.conditions ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  text-decoration: none;
+}
+.conditions ul li a {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  text-decoration: none;
+  padding: 10px 27px;
+  color: rgb(14, 153, 245);
+  overflow: hidden;
+}
+.linebreak1 {
+  padding-top: 50px;
+  color: lightgrey;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  overflow: hidden;
+}
